@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+  }
+
+
 .sign-up-page {
   height: 50vh;
   display: flex;
