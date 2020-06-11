@@ -2,7 +2,9 @@
     box-sizing: border-box;
   }
 
-
+body {
+    text-align: center;
+}
 
 .login-page {
   height: 50vh;
