@@ -3,23 +3,12 @@
   }
 
 body {
-    text-align: center;
+  text-align: center;
 }
 
 form {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.login-page {
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: inline-block;
+    padding: 10px;
 }
 
 
@@ -27,26 +16,22 @@ form {
   margin-top: 80px;
   border: 1px solid black;
   border-radius: 3px;
-  width: 70%;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
-.login-page form {
-  padding: 30px;
-}
-
-
-.login-page input,
-.login-page label {
+input, label {
   display: block;
   margin: 10px 0 10px;
 }
 
 
-.login-page form button {
-  display: block;
-  margin: 10px auto 0;
+button {
+  display: inline-block;
+  margin: 5px auto 0;
 }
