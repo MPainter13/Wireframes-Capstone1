@@ -6,6 +6,15 @@ body {
     text-align: center;
 }
 
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .login-page {
   height: 50vh;
   display: flex;
