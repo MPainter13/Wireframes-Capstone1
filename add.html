@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <div class="addForm">
     <form>
         <fieldset>
             <legend>Add new meal</legend>
@@ -33,14 +34,17 @@
             </select>
             <label for="addNewMeal">Title</label>
             <input type="text" id="addNewMeal" name="title" required>
-            <label for="desc">Description</label>
-            <input type="text" id="desc" name="desc" required>
             <label for="link">Attach your recipe</label>
             <input type="url" id="link" name="url">
+            <label for="desc">Description</label>
+            <textarea type="text" id="desc" name="desc" required rows="4" cols="50"></textarea>
+            <div class="buttons">
             <button type="cancel">Cancel</button>
             <button type="submit">Add</button>
+            </div>
         </fieldset>
     </form>
+  </div>
 </body>
 
 </html>
